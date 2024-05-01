@@ -13,8 +13,14 @@ const Badge = styled.li`
   border-radius: 0.5rem;
   font-size: 0.8rem;
   font-weight: 400;
-  background-color: #${(props) => props.$randomColor}30;
-  color: #${(props) => props.$randomColor};
+  ${({ theme, $randomColor }) =>
+    theme.isDarkMode
+      ? `background: #77777733;
+    border: 1px solid #${$randomColor};`
+      : `
+  background-color: #${$randomColor}30;
+  color: #${$randomColor};
+  `}
 `;
 
 export default function Badges({ data }) {
