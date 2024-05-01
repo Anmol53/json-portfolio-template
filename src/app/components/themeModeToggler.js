@@ -31,12 +31,18 @@ const ToggleBall = styled.div`
 `;
 
 export default function ThemeModeToggler({ darkMode, setDarkMode }) {
+  const toggleTheme = () => {
+    const theme = localStorage.getItem("theme");
+    localStorage.setItem("theme", darkMode ? "light" : "dark");
+    setDarkMode(!darkMode);
+  };
+
   return (
     <span>
       <ToggleButton
         type="checkbox"
         id="darkModeCheckbox"
-        onChange={() => setDarkMode(!darkMode)}
+        onChange={toggleTheme}
         checked={darkMode}
       />
       <ToggleBase htmlFor="darkModeCheckbox">

@@ -9,12 +9,23 @@ import { GlobalStyles, presetThemes } from "./themeConfig";
 export default function Home() {
   const [profileData, setProfileData] = useState(undefined);
   const [theme, setTheme] = useState({});
-  const [darkMode, setDarkMode] = useState(
-    typeof window !== "undefined" &&
-      window.matchMedia("(prefers-color-scheme: dark)").matches
-  );
+  const [darkMode, setDarkMode] = useState(false);
+
+  // check and reset theme
+  const themeCheck = () => {
+    if (
+      localStorage.theme === "dark" ||
+      (!("theme" in localStorage) &&
+        window.matchMedia("(prefers-color-scheme: dark)").matches)
+    ) {
+      setDarkMode(true);
+    } else {
+      setDarkMode(false);
+    }
+  };
 
   useEffect(() => {
+    themeCheck();
     fetch("data/profile.json")
       .then((response) => {
         return response.json();
