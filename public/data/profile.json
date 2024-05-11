@@ -6,8 +6,8 @@
   },
   "theme": {
     "default": {
-      "primaryTextColor": "#ffffff",
-      "secondaryTextColor": "#707070",
+      "primaryTextColor": "#333333",
+      "secondaryTextColor": "#fefefe",
       "primaryBackgroundColor": "#ffffff",
       "secondaryBackgroundColor": "#fafafa",
       "accentColor": "#ff6347",
@@ -16,8 +16,8 @@
       "fontFamily": "Roboto"
     },
     "dark": {
-      "primaryTextColor": "#ffffff",
-      "secondaryTextColor": "#a0a0a0",
+      "primaryTextColor": "#d2cbc6",
+      "secondaryTextColor": "#ffffff",
       "primaryBackgroundColor": "#000000",
       "secondaryBackgroundColor": "#202020",
       "accentColor": "#505050",

@@ -11,7 +11,7 @@ const Buttons = styled.div`
 const StyledButton = styled.a`
   text-decoration: none;
   font-size: ${({ $size }) => $size}rem;
-  color: ${({ theme }) => theme.primaryTextColor};
+  color: ${({ theme }) => theme.secondaryTextColor};
   background: linear-gradient(
     163deg,
     ${({ theme }) => theme.accentSecondaryColor} 50%,

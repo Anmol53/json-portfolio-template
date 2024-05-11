@@ -5,6 +5,8 @@ import Subsection from "./subsection";
 const StyledFooter = styled.footer`
   width: 100%;
   background-color: #000000ee;
+  color: ${({ theme }) =>
+    theme.isDarkMode ? theme.primaryTextColor : theme.secondaryTextColor};
 `;
 
 const FooterMain = styled.div`

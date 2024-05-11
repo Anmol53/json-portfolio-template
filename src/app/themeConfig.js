@@ -3,8 +3,8 @@ import { createGlobalStyle } from "styled-components";
 export const presetThemes = {
   default: {
     default: {
-      primaryTextColor: "#ffffff",
-      secondaryTextColor: "#707070",
+      primaryTextColor: "#333333",
+      secondaryTextColor: "#fefefe",
       primaryBackgroundColor: "#ffffff",
       secondaryBackgroundColor: "#fafafa",
       accentColor: "#0E46A3",
@@ -13,8 +13,8 @@ export const presetThemes = {
       fontFamily: "Roboto",
     },
     dark: {
-      primaryTextColor: "#ffffff",
-      secondaryTextColor: "#a0a0a0",
+      primaryTextColor: "#d2cbc6",
+      secondaryTextColor: "#ffffff",
       primaryBackgroundColor: "#000000",
       secondaryBackgroundColor: "#202020",
       accentColor: "#5b94f1",
@@ -25,8 +25,8 @@ export const presetThemes = {
   },
   blueberry: {
     default: {
-      primaryTextColor: "#ffffff",
-      secondaryTextColor: "#707070",
+      primaryTextColor: "#555555",
+      secondaryTextColor: "#fefefe",
       primaryBackgroundColor: "#f3f8ff",
       secondaryBackgroundColor: "#ffffff",
       accentColor: "#2e4a9e",
@@ -35,8 +35,8 @@ export const presetThemes = {
       fontFamily: "Roboto",
     },
     dark: {
-      primaryTextColor: "#ffffff",
-      secondaryTextColor: "#a0a0a0",
+      primaryTextColor: "#d2cbc6",
+      secondaryTextColor: "#ffffff",
       primaryBackgroundColor: "#000000",
       secondaryBackgroundColor: "#202020",
       accentColor: "#2e4a9e",
@@ -47,8 +47,8 @@ export const presetThemes = {
   },
   coconut: {
     default: {
-      primaryTextColor: "#444444",
-      secondaryTextColor: "#707070",
+      primaryTextColor: "#333333",
+      secondaryTextColor: "#fefefe",
       primaryBackgroundColor: "#f8f3f0",
       secondaryBackgroundColor: "#ffffff",
       accentColor: "#e0d0c0",
@@ -57,8 +57,8 @@ export const presetThemes = {
       fontFamily: "Roboto",
     },
     dark: {
-      primaryTextColor: "#ffffff",
-      secondaryTextColor: "#909090",
+      primaryTextColor: "#d2cbc6",
+      secondaryTextColor: "#333333",
       primaryBackgroundColor: "#222222",
       secondaryBackgroundColor: "#444444",
       accentColor: "#e0d0c0",
@@ -69,8 +69,8 @@ export const presetThemes = {
   },
   dragonfruit: {
     default: {
-      primaryTextColor: "#ffffff",
-      secondaryTextColor: "#707070",
+      primaryTextColor: "#333333",
+      secondaryTextColor: "#fefefe",
       primaryBackgroundColor: "#fff4fa",
       secondaryBackgroundColor: "#ffffff",
       accentColor: "#ff0099",
@@ -79,8 +79,8 @@ export const presetThemes = {
       fontFamily: "Roboto",
     },
     dark: {
-      primaryTextColor: "#ffffff",
-      secondaryTextColor: "#a0a0a0",
+      primaryTextColor: "#d2cbc6",
+      secondaryTextColor: "#ffffff",
       primaryBackgroundColor: "#333333",
       secondaryBackgroundColor: "#2e2e2e",
       accentColor: "#ff0099",
@@ -91,8 +91,8 @@ export const presetThemes = {
   },
   grape: {
     default: {
-      primaryTextColor: "#ffffff",
-      secondaryTextColor: "#707070",
+      primaryTextColor: "#555555",
+      secondaryTextColor: "#fefefe",
       primaryBackgroundColor: "#f8f0ff",
       secondaryBackgroundColor: "#ffffff",
       accentColor: "#4a0080",
@@ -101,8 +101,8 @@ export const presetThemes = {
       fontFamily: "Roboto",
     },
     dark: {
-      primaryTextColor: "#ffffff",
-      secondaryTextColor: "#a0a0a0",
+      primaryTextColor: "#d2cbc6",
+      secondaryTextColor: "#ffffff",
       primaryBackgroundColor: "#222222",
       secondaryBackgroundColor: "#444444",
       accentColor: "#4a0080",
@@ -113,8 +113,8 @@ export const presetThemes = {
   },
   kiwi: {
     default: {
-      primaryTextColor: "#ffffff",
-      secondaryTextColor: "#707070",
+      primaryTextColor: "#333333",
+      secondaryTextColor: "#fefefe",
       primaryBackgroundColor: "#f5fff5",
       secondaryBackgroundColor: "#ffffff",
       accentColor: "#8EE53F",
@@ -123,8 +123,8 @@ export const presetThemes = {
       fontFamily: "Roboto",
     },
     dark: {
-      primaryTextColor: "#ffffff",
-      secondaryTextColor: "#a0a0a0",
+      primaryTextColor: "#d2cbc6",
+      secondaryTextColor: "#ffffff",
       primaryBackgroundColor: "#2e2e2e",
       secondaryBackgroundColor: "#333333",
       accentColor: "#8EE53F",
@@ -135,8 +135,8 @@ export const presetThemes = {
   },
   mango: {
     default: {
-      primaryTextColor: "#ffffff",
-      secondaryTextColor: "#707070",
+      primaryTextColor: "#333333",
+      secondaryTextColor: "#fefefe",
       primaryBackgroundColor: "#ffcc80",
       secondaryBackgroundColor: "#ffffff",
       accentColor: "#cc9933",
@@ -145,8 +145,8 @@ export const presetThemes = {
       fontFamily: "Roboto",
     },
     dark: {
-      primaryTextColor: "#ffffff",
-      secondaryTextColor: "#a0a0a0",
+      primaryTextColor: "#d2cbc6",
+      secondaryTextColor: "#ffffff",
       primaryBackgroundColor: "#444444",
       secondaryBackgroundColor: "#333333",
       accentColor: "#cc9933",
@@ -157,8 +157,8 @@ export const presetThemes = {
   },
   pear: {
     default: {
-      primaryTextColor: "#ffffff",
-      secondaryTextColor: "#707070",
+      primaryTextColor: "#333333",
+      secondaryTextColor: "#fefefe",
       primaryBackgroundColor: "#f8fff0",
       secondaryBackgroundColor: "#ffffff",
       accentColor: "#a6ba00",
@@ -167,8 +167,8 @@ export const presetThemes = {
       fontFamily: "Roboto",
     },
     dark: {
-      primaryTextColor: "#ffffff",
-      secondaryTextColor: "#a0a0a0",
+      primaryTextColor: "#d2cbc6",
+      secondaryTextColor: "#ffffff",
       primaryBackgroundColor: "#222222",
       secondaryBackgroundColor: "#444444",
       accentColor: "#a6ba00",
@@ -179,8 +179,8 @@ export const presetThemes = {
   },
   pineapple: {
     default: {
-      primaryTextColor: "#ffffff",
-      secondaryTextColor: "#909090",
+      primaryTextColor: "#555555",
+      secondaryTextColor: "#fefefe",
       primaryBackgroundColor: "#ffffcc",
       secondaryBackgroundColor: "#fff2cc",
       accentColor: "#e6ac00",
@@ -189,8 +189,8 @@ export const presetThemes = {
       fontFamily: "Roboto",
     },
     dark: {
-      primaryTextColor: "#ffffff",
-      secondaryTextColor: "#a0a0a0",
+      primaryTextColor: "#d2cbc6",
+      secondaryTextColor: "#ffffff",
       primaryBackgroundColor: "#444444",
       secondaryBackgroundColor: "#333333",
       accentColor: "#e6ac00",
@@ -201,8 +201,8 @@ export const presetThemes = {
   },
   plum: {
     default: {
-      primaryTextColor: "#ffffff",
-      secondaryTextColor: "#707070",
+      primaryTextColor: "#777777",
+      secondaryTextColor: "#fefefe",
       primaryBackgroundColor: "#ffffff",
       secondaryBackgroundColor: "#fafafa",
       accentColor: "#704264",
@@ -211,8 +211,8 @@ export const presetThemes = {
       fontFamily: "Roboto",
     },
     dark: {
-      primaryTextColor: "#ffffff",
-      secondaryTextColor: "#a0a0a0",
+      primaryTextColor: "#d2cbc6",
+      secondaryTextColor: "#ffffff",
       primaryBackgroundColor: "#000000",
       secondaryBackgroundColor: "#202020",
       accentColor: "#49243E",
@@ -223,8 +223,8 @@ export const presetThemes = {
   },
   tangerine: {
     default: {
-      primaryTextColor: "#ffffff",
-      secondaryTextColor: "#707070",
+      primaryTextColor: "#333333",
+      secondaryTextColor: "#fefefe",
       primaryBackgroundColor: "#fff2e6",
       secondaryBackgroundColor: "#ffffff",
       accentColor: "#cc6600",
@@ -233,8 +233,8 @@ export const presetThemes = {
       fontFamily: "Roboto",
     },
     dark: {
-      primaryTextColor: "#ffffff",
-      secondaryTextColor: "#a0a0a0",
+      primaryTextColor: "#d2cbc6",
+      secondaryTextColor: "#ffffff",
       primaryBackgroundColor: "#444444",
       secondaryBackgroundColor: "#333333",
       accentColor: "#cc6600",
@@ -245,8 +245,8 @@ export const presetThemes = {
   },
   rambutan: {
     default: {
-      primaryTextColor: "#ffffff",
-      secondaryTextColor: "#707070",
+      primaryTextColor: "#555555",
+      secondaryTextColor: "#fefefe",
       primaryBackgroundColor: "#ffffff",
       secondaryBackgroundColor: "#f5f5f5",
       accentColor: "#8b0000",
@@ -255,8 +255,8 @@ export const presetThemes = {
       fontFamily: "Roboto",
     },
     dark: {
-      primaryTextColor: "#ffffff",
-      secondaryTextColor: "#a0a0a0",
+      primaryTextColor: "#d2cbc6",
+      secondaryTextColor: "#ffffff",
       primaryBackgroundColor: "#222222",
       secondaryBackgroundColor: "#444444",
       accentColor: "#8b0000",
@@ -282,8 +282,8 @@ export const GlobalStyles = createGlobalStyle`
     }
     
     body {
-        background-color: ${({ theme }) => theme.primaryTextColor};
-        color: ${({ theme }) => theme.secondaryTextColor};
+        background-color: ${({ theme }) => theme.primaryBackgroundColor};
+        color: ${({ theme }) => theme.primaryTextColor};
         font-family: "${({ theme }) => theme.fontFamily}", sans-serif;
         line-height: 1.8rem;
         transition: background-color 0.3s linear;

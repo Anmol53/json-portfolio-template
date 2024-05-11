@@ -76,7 +76,7 @@ const StyledLinks = styled.li`
   margin: 0.6rem 1rem;
   transition: all 0.5s ease;
   &.active {
-    color: ${({ theme }) => theme.primaryTextColor};
+    color: ${({ theme }) => theme.secondaryTextColor};
     border-bottom: 2px solid ${({ theme }) => theme.accentColor};
   }
   a {

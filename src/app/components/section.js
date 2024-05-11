@@ -61,7 +61,6 @@ const StyledHeading = styled.div`
   padding: 1rem 10rem 3rem;
   flex-direction: column;
   text-align: center;
-  color: ${({ theme }) => theme.secondaryTextColor};
   h1 {
     line-height: 3rem;
     font-size: ${(props) => (props.$home ? "4rem" : "2rem")};
