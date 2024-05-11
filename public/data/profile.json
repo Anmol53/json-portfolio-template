@@ -8,10 +8,10 @@
     "default": {
       "primaryTextColor": "#333333",
       "secondaryTextColor": "#fefefe",
-      "primaryBackgroundColor": "#ffffff",
-      "secondaryBackgroundColor": "#fafafa",
-      "accentColor": "#ff6347",
-      "accentSecondaryColor": "#ffa07a",
+      "primaryBackgroundColor": "#f8fff0",
+      "secondaryBackgroundColor": "#ffffff",
+      "accentColor": "#a6ba00",
+      "accentSecondaryColor": "#7a8a00",
       "brandColor": "#ffffff",
       "fontFamily": "Roboto"
     },
@@ -19,9 +19,9 @@
       "primaryTextColor": "#d2cbc6",
       "secondaryTextColor": "#ffffff",
       "primaryBackgroundColor": "#000000",
-      "secondaryBackgroundColor": "#202020",
-      "accentColor": "#505050",
-      "accentSecondaryColor": "#050505",
+      "secondaryBackgroundColor": "#212121",
+      "accentColor": "#a6ba00",
+      "accentSecondaryColor": "#7a8a00",
       "brandColor": "#ffffff",
       "fontFamily": "Roboto"
     }
@@ -37,7 +37,7 @@
       "Full Stack Developer"
     ],
     "icons": {
-      "icon": "https://placehold.co/60x60/ff6347/white/png?text=R"
+      "icon": "https://placehold.co/60x60/a6ba00/white/png?text=R"
     },
     "robots": {
       "index": true,
