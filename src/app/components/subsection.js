@@ -25,6 +25,14 @@ export default function Subsection({ data }) {
           {data.buttons && (
             <ButtonGroup groupName={data.name} buttons={data.buttons} />
           )}
+          {data.subsections &&
+            Array.isArray(data.subsections) &&
+            data.subsections.map((subsection, idx) => (
+              <Subsection
+                key={`${data.name}_subsection_${idx}`}
+                data={subsection}
+              ></Subsection>
+            ))}
         </StyledSubsection>
       ) : data.type === "media-item" ? (
         <MediaItem data={data} />
