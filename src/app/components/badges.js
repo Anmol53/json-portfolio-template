@@ -15,12 +15,15 @@ const Badge = styled.li`
   font-weight: 400;
   ${({ theme, $randomColor }) =>
     theme.isDarkMode
-      ? `background: #77777733;
-    border: 1px solid #${$randomColor};`
+      ? `
+          background: #77777733;
+          border: 1px solid #${$randomColor};
+        `
       : `
-  background-color: #${$randomColor}30;
-  color: #${$randomColor};
-  `}
+          background: #${$randomColor}30;
+          border: 1px solid transparent;
+          color: #${$randomColor};
+        `}
 `;
 
 export default function Badges({ data }) {
