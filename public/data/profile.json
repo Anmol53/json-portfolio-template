@@ -57,11 +57,13 @@
       "buttons": [
         {
           "text": "Projects",
-          "link": "#projects"
+          "link": "#projects",
+          "size": "lg"
         },
         {
           "text": "Contact Me",
-          "link": "mailto:raj@example.com"
+          "link": "mailto:raj@example.com",
+          "size": "lg"
         }
       ]
     },
@@ -126,7 +128,7 @@
           ],
           "buttons": [
             {
-              "text": "Visit",
+              "text": "View Project",
               "link": "https://www.ecomarket.example"
             }
           ]
@@ -150,7 +152,7 @@
           "badges": ["React", "Redux", "Firebase", "Material-UI"],
           "buttons": [
             {
-              "text": "Visit",
+              "text": "View Project",
               "link": "https://www.healthify.example"
             }
           ]
@@ -175,7 +177,7 @@
           "badges": ["React", "Node.js", "MongoDB", "Express.js"],
           "buttons": [
             {
-              "text": "Visit",
+              "text": "View Project",
               "link": "https://www.codechefclone.example"
             }
           ]
