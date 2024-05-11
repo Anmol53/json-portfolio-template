@@ -10,14 +10,25 @@ const StyledSubsection = styled.div`
   gap: 1rem;
 `;
 
+const Heading = styled.div`
+  h4 {
+    line-height: 1;
+    font-size: 0.75rem;
+    color: ${({ theme }) => theme.primaryTextColor}7f;
+  }
+`;
+
 export default function Subsection({ data }) {
   return (
     <>
       {data.type === "default" ? (
         <StyledSubsection>
-          {data.heading && (
-            <h3 dangerouslySetInnerHTML={{ __html: data.heading }}></h3>
-          )}
+          <Heading>
+            {data.heading && (
+              <h3 dangerouslySetInnerHTML={{ __html: data.heading }}></h3>
+            )}
+            {data.meta && <h4>{data.meta}</h4>}
+          </Heading>
           {data.content && (
             <div dangerouslySetInnerHTML={{ __html: data.content }}></div>
           )}
