@@ -49,7 +49,7 @@ export default function Copyright({ appName }) {
         Copyright &copy; {appName}
         <script>document.write(new Date().getFullYear());</script> | This
         website is generated using{" "}
-        <a href="https://www.anmolagrawal.dev/json-portfolio-generator">
+        <a href="https://www.anmolagrawal.dev/json-portfolio">
           <ColoredText>JSON Portfolio</ColoredText>
         </a>
       </p>
